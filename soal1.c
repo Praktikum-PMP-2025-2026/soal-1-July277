@@ -28,7 +28,7 @@ int main(void){
             printf("BIRU\n");
         } else if(i % 3 == 0){
             printf("MERAH\n");
-        } else if(i % 2 == 0 && i != 10){
+        } else if(i % 2 == 0){
             printf("KUNING\n");
         } else if(JumlahDigit(i) >= 10 && JumlahDigit(i) % 2 == 0){
             printf("HIJAU\n");
